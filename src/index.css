@@ -6,3 +6,29 @@ p {
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --black: #000;
+  --dark: #222;
+  --gray: #888;
+  --white: #f0f0f0;
+  --pink: #fc2063;
+  --peach: #fd5185;
+  --clear-black: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: var(--dark);
+}
+
+svg text {
+  fill: var(--white);
+}
+
+svg line {
+  stroke: var(--pink);
+}
+
+svg circle {
+  fill: var(--pink)
+}
